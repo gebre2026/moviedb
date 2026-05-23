@@ -76,7 +76,7 @@ import { Play, Info } from "lucide-react";
 
 import styles from "./Banner.module.css";
 
-import requests from "../../Utility/requestUrls";
+import requestUrls from "../../Utility/requestUrls";
 
 const BANNER_BASE = "https://image.tmdb.org/t/p/original/";
 

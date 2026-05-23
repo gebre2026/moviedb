@@ -3,8 +3,7 @@ import styles from "./DisplayRow.module.css";
 import SlideShow from "../SlideShow/SlideShow";
 
 import { movies } from "../../Data/Data";
-
-import requests from "../../Utility/requestUrls";
+import requestUrls from "../../Utility/requestUrls";
 
 function DisplayRow() {
   const [movies, setMovies] = useState({
