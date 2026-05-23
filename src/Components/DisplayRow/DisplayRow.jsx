@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import styles from "./DisplayRow.module.css";
 import SlideShow from "../SlideShow/SlideShow";
 
- import { movies } from "../../Data/Data";
+import { movies } from "../../Data/Data";
 
-import { movieInstance } from "../../Utility/MovieInstance";
 import requests from "../../Utility/requestUrls";
 
 function DisplayRow() {

@@ -78,8 +78,6 @@ import styles from "./Banner.module.css";
 
 import requests from "../../Utility/requestUrls";
 
-import requests from "../../Utility/requestUrls";
-
 const BANNER_BASE = "https://image.tmdb.org/t/p/original/";
 
 function Banner() {
