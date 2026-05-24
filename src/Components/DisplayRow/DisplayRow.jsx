@@ -1,9 +1,13 @@
+
 import React, { useEffect, useState } from "react";
+
 import styles from "./DisplayRow.module.css";
+
 import SlideShow from "../SlideShow/SlideShow";
 
-import { movies } from "../../Data/Data";
-import requestUrls from "../../Utility/requestUrls";
+import { movieInstance } from "../../Utility/MovieInstance";
+
+import requests from "../../Utility/requestUrls";
 
 function DisplayRow() {
   const [movies, setMovies] = useState({
@@ -54,7 +58,7 @@ function DisplayRow() {
         documentaries: docRes.data.results,
       });
     } catch (error) {
-      console.log(error);
+      console.log("Error fetching movies:", error);
     }
   };
 
@@ -72,23 +76,3 @@ function DisplayRow() {
 }
 
 export default DisplayRow;
-
-// ------------------------------work the above code
-
-// import React from "react";
-// import styles from "./DisplayRow.module.css";
-// import SlideShow from "../SlideShow/SlideShow";
-// import { movies } from "../../Data/Data";
-
-// function DisplayRow() {
-//   return (
-//     <div className={styles.mainWrapper}>
-//       <SlideShow title="Movie suggestions" movies={movies} />
-//       <SlideShow title="Popular on Netflix" movies={movies} />
-//       <SlideShow title="Trending Now" movies={movies} />
-//       <SlideShow title="New Releases" movies={movies} />
-//     </div>
-//   );
-// }
-
-// export default DisplayRow;

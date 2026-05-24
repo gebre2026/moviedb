@@ -58,7 +58,7 @@
 
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import netflix from "/logo.png";
+// import netflix from "/logo.png";
 import "./App.css";
 
 import Header from "./Components/Header/Header";
