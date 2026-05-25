@@ -9,6 +9,8 @@ import { Play, Info } from "lucide-react";
 import styles from "./Banner.module.css";
 
 import { movieInstance } from "../../Utility/MovieInstance";
+// import requests from "../../Utility/requestUrls";
+
 import requests from "../../Utility/requestUrls";
 
 const BANNER_BASE = "https://image.tmdb.org/t/p/original/";
