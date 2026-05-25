@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from "react";
 
 import NetflixBannerLogo from "../../assets/image/logo.png";
